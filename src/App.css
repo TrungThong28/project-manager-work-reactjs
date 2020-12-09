@@ -42,5 +42,14 @@
 }
 
 .close {
-  margin-left: 195px;
+  margin-left: 170px;
+}
+
+.sort_selected::after {
+    content: '\f00c';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    margin-left: 50px;
+    display: inline-block;
 }
